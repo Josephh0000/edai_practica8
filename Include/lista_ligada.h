@@ -80,4 +80,6 @@ bool lista_insertar_x_pos(Dlista *l, int pos, void *info, size_t size) {
 
     return true;
 }
+
+int lista_num_nodos(Dlista *L);
 #endif
